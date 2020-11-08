@@ -1,38 +1,58 @@
-.App {
+body{
+  background-color:#E71C23;
+  font-size: 20px;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.app-title{
+  color: aliceblue;
   text-align: center;
+  font-style: oblique;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  text-align: center;
+  color: aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-text{
+  background-color: aliceblue;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.add-btn{
+  color: aliceblue;
+  background-color: blue;
+  border: none;
+  padding: 8px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  border: none;
+  color: aliceblue;
+  background-color: red;
+  padding: 8px 17px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
